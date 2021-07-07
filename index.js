@@ -1,8 +1,3 @@
-let date = new Date();
-let year = date.getFullYear();
-
-document.getElementById('year').innerHTML = year;
-
 let drums = document.querySelectorAll(".drum");
 for (let i = 0;i < drums.length; i++){
     drums[i].addEventListener("click", function(){
